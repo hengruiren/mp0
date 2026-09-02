@@ -1,1 +1,37 @@
-/* Your CSS here. */
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  body {
+    background-color: white;
+  }
+  
+  .card {
+    background-color: #e8eef5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .biography {
+    text-align: left;
+  }
+
+  .links a + a {
+    margin-left: 20px;
+  }
+
+  .card.dark {
+    background-color: #666666;
+    color: white;
+  }
+  
+  .card.dark a {
+    color: white;
+  }
+  
